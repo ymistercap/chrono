@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0turn, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-attachment: fixed;
+}
+
+.whole {
+    width: 300px;
+    margin: 100;
+    text-align: center;
+    height: 230px;
+    transform: translateX(8px) translateY(250px);
+    background-color: transparent;
+}
+
+#conv {
+    transform: translateY(-5px);
+}
+
+.timer {
+    font-size: 33px;
+    padding: 5px;
+    border: solid;
+    transform: translateX(3px) translateY(-20px);
+    width: 278px;
+    background-color: orange;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.chrono {
+    padding: 15px;
+    border: solid;
+    transform: translateX(2px) translateY(-42px);
+    width: 260px;
+    height: 50px;
+    background-color: wheat;
+}
+
+#time {
+    font-size: 45px;
+    transform: translateX(2px) translateY(-45px);
+    font-family: 'alarm clock', sans-serif;
+}
+
+.btn {
+    width: 350px;
+    transform: translateX(-25px) translateY(3px);
+}
+
+#start {
+    border: solid;
+    padding: 27px;
+    transform: translateY(-40px);
+    padding: 15px;
+    font-size: 27px;
+    width: 95px;
+    height: 74px;
+    background-color: orange;
+    border-bottom-left-radius: 20px;
+    font-family: 'Calculator', sans-serif;
+}
+
+#pause {
+    border: solid;
+    padding: 27px;
+    transform: translateY(-40px);
+    padding: 15px;
+    font-size: 27px;
+    width: 95px;
+    height: 74px;
+    background-color: orange;
+    font-family: 'Calculator', sans-serif;
+}
+
+#reset {
+    border: solid;
+    padding: 27px;
+    transform: translateY(-40px);
+    padding: 15px;
+    font-size: 27px;
+    width: 95px;
+    height: 74px;
+    background-color: orange;
+    border-bottom-right-radius: 20px;
+    font-family: 'Calculator', sans-serif;
+}
